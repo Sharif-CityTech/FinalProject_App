@@ -23,10 +23,10 @@ public class Home extends AppCompatActivity {
         startActivity(i);
     }
     //Method for button to go to Building Tiers
-  //  public void toTier(View view){
-      //  Intent i= new Intent(this, buildingTier.class);
-       // startActivity(i);
-   // }
+    public void toTiers(View view){
+        Intent i= new Intent(this, Tiers.class);
+        startActivity(i);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -49,4 +49,6 @@ public class Home extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }

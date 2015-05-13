@@ -4,11 +4,15 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     android:paddingBottom="16dp"
-    tools:context="citytech.sharif.rusthelp.Tiers">
+    tools:context="citytech.sharif.rusthelp.Tiers"
+    android:background="#CA412A">
 
     <ListView android:layout_width="match_parent"
               android:layout_height="match_parent"
-        android:id="@+id/tiersBuilding" />
+        android:id="@+id/tiersBuilding"
+        android:background="#CA412A"
+        android:textFilterEnabled="false"
+        android:textAlignment="center" />
 
 
 
